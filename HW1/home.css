@@ -1,0 +1,58 @@
+* {
+		font-family: sans-serif;
+}
+body {
+	background-image: url('Background.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	color: ivory;
+}
+
+.title {
+	text-align: center;
+	color: ivory;
+}
+
+a {
+	color: ivory;
+}
+
+a:active {
+	color: ivory;
+}
+a:hover{
+	color: orange;
+}
+.quote{
+	font-style: italic;
+	text-align: center;
+	color: ivory;
+}
+
+table, th, tr, td{
+	border: 1px solid white;
+	color: ivory;
+	text-align: center;
+}
+
+tr:nth-child(even) {
+	background-color:orange;
+}
+
+.left{
+	float: left;
+	padding: 10px;
+}
+.right{
+	float: right;
+	padding: 10px;
+}
+
+span {
+	color: red;
+	font-weight: bold;
+}
+#end {
+	text-align: center;
+	clear: both;
+}
